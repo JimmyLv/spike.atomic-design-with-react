@@ -1,0 +1,19 @@
+.wrapper {
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 54px;
+}
+
+.main {
+    margin-top: 60px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
