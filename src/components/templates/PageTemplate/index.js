@@ -3,14 +3,14 @@ import styles from './index.css'
 export default ({ header, hero, children, footer, ...props }) => (
   <div className={styles['wrapper']} {...props}>
     <header className={styles['header']}>
-      {header}
+      {header || 'Header'}
     </header>
     {hero && <section>{hero}</section>}
     <section className={styles['main']}>
-      {children}
+      {children || 'Content'}
     </section>
     <footer className={styles['footer']}>
-      {footer}
+      {footer || 'Footer'}
     </footer>
   </div>
 )
