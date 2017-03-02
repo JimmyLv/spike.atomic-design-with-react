@@ -1,3 +1,3 @@
-import MenuBar from './MenuBar/MenuBar'
+import Menu from './Menu/Menu'
 
-export { MenuBar }
+export { Menu }

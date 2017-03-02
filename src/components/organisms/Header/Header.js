@@ -1,10 +1,10 @@
 import styles from './Header.css'
 import { Logo } from '../../atoms'
-import { MenuBar } from '../../molecules'
+import { Menu } from '../../molecules'
 
 export default () => (
   <div className={styles['header']}>
     <Logo />
-    <MenuBar menus={[1, 2, 3]}/>
+    <Menu items={[1, 2, 3]}/>
   </div>
 )
