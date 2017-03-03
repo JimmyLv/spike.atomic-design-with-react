@@ -1,3 +1,27 @@
+# Atomic Design with React
+
+## TODOs
+
+- [x] update babel presets
+- [x] create page by templates
+- [ ] theme react components
+- [ ] add react learning resources
+
+## References
+
+- [Atomic Design - created by JimmyLv](http://atomicdesign.nobackend.website/)
+- [ARc - Atomic React](https://arc.js.org/)
+- http://atomicdesign.bradfrost.com/table-of-contents/
+- http://styleguides.io/
+- https://github.com/killercentury/sc-sg-react
+- http://www.bigeng.io/the-living-style-guide-pattern-lab/
+- http://patternlab.io/
+- http://ux.mailchimp.com/patterns/
+- https://www.smashingmagazine.com/2016/07/building-maintaining-atomic-design-systems-pattern-lab/
+- https://medium.com/@killercup/react-js-based-patternlab-io-f1506a8fa24d#.e3vxrwy5r
+
+------
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
