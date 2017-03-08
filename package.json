@@ -4,13 +4,12 @@
   "private": true,
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom",
-    "test:coverage": "node scripts/test.js --env=jsdom --coverage",
+    "build": "node scripts/build.js && npm run test:coverage && npm run build-storybook",
+    "test": "node scripts/test.js --env=jsdom --coverage",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook --output-dir build/storybook/"
   },
   "dependencies": {
     "react": "^15.4.2",
@@ -70,6 +69,7 @@
     "collectCoverageFrom": [
       "src/**/*.test.{js,jsx}"
     ],
+    "coverageDirectory": "<rootDir>/build/coverage/",
     "setupFiles": [
       "<rootDir>/config/polyfills.js"
     ],
