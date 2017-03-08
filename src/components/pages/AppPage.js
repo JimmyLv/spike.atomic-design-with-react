@@ -4,8 +4,6 @@ import styles from './AppPage.css'
 import { PageTemplate } from '../templates'
 import { Header, Content, Footer } from '../organisms'
 
-console.info(styles, styles.header)
-
 class App extends Component {
   render() {
     return (

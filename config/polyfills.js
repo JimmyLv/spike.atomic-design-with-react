@@ -8,6 +8,7 @@ if (typeof Promise === 'undefined') {
 
 // fetch() polyfill for making API calls.
 require('whatwg-fetch');
+window.React = require('react');
 
 // Object.assign() is commonly used with React.
 // It will use the native implementation if it's present and isn't buggy.

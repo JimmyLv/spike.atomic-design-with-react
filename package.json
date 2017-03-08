@@ -6,6 +6,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
+    "test:coverage": "node scripts/test.js --env=jsdom --coverage",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "storybook": "start-storybook -p 6006",
@@ -67,7 +68,7 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/**/*.{js,jsx}"
+      "src/**/*.test.{js,jsx}"
     ],
     "setupFiles": [
       "<rootDir>/config/polyfills.js"
