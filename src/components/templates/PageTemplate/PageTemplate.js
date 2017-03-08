@@ -1,4 +1,4 @@
-import styles from './index.css'
+import styles from './PageTemplate.css'
 
 export default ({ header, hero, children, footer, ...props }) => (
   <div className={styles['wrapper']} {...props}>

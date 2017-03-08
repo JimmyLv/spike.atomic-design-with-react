@@ -12,8 +12,8 @@ class Header extends Component {
     const { theme, logo, children } = this.props
     return (
       <div className={theme['header']}>
-        { logo ? <i className={theme['icon']}>{logo}</i> : <Logo />}
-        <Menu items={[1, 2, 3]} />
+        <span className={theme['logo']}>{ logo ? <i className={theme['icon']}>{logo}</i> : <Logo />}</span>
+        <Menu items={['Home', 'Blog', 'Photo']} />
         <span>{children}</span>
       </div>
     )

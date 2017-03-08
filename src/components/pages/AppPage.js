@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import styles from './App.css'
+import styles from './AppPage.css'
 
-import PageTemplate from '../templates/PageTemplate'
+import { PageTemplate } from '../templates'
 import { Header, Content, Footer } from '../organisms'
 
 console.info(styles, styles.header)
