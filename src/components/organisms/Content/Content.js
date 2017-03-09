@@ -1,3 +1,8 @@
+import { Counter } from '../../molecules'
+
 export default () => (
-  <h2>Welcome to React!</h2>
+  <div>
+    <h2>Welcome to React!</h2>
+    <Counter />
+  </div>
 )
