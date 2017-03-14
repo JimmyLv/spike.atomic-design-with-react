@@ -10,18 +10,15 @@
 ## References
 
 - [Atomic Design - created by JimmyLv](http://atomicdesign.nobackend.website/)
-- [ARc - Atomic React](https://arc.js.org/)
+- [Atomic Design | Atomic Design by Brad Frost](http://atomicdesign.bradfrost.com/table-of-contents/)
+- [Pattern Lab | Build Atomic Design Systems](http://patternlab.io/)
 - [UI Component Playbook](https://blog.hichroma.com/ui-component-playbook-fd3022d00590#.q9vudq2h9)，从设计讲到开发。
 - [Component-Driven Development](https://blog.hichroma.com/component-driven-development-ce1109d56c8e#.68tcwmv7p)，可理解为 “Visual TDD”
 - [UI component explorers — your new favorite tool](https://blog.hichroma.com/the-crucial-tool-for-modern-frontend-engineers-fb849b06187a#.s7n0qslve)
-- http://patternlab.io/
-- http://atomicdesign.bradfrost.com/table-of-contents/
-- http://styleguides.io/
-- https://github.com/killercentury/sc-sg-react
-- http://www.bigeng.io/the-living-style-guide-pattern-lab/
-- http://ux.mailchimp.com/patterns/
-- https://www.smashingmagazine.com/2016/07/building-maintaining-atomic-design-systems-pattern-lab/
-- https://medium.com/@killercup/react-js-based-patternlab-io-f1506a8fa24d#.e3vxrwy5r
+- [ARc - Atomic React](https://arc.js.org/)
+- [React.js-based Patternlab.io – Pascal – Medium](https://medium.com/@killercup/react-js-based-patternlab-io-f1506a8fa24d#.e3vxrwy5r)
+- [The “Living” Style Guide - Pattern-Lab](http://www.bigeng.io/the-living-style-guide-pattern-lab/)
+- [Making And Maintaining Atomic Design Systems With Pattern Lab 2 – Smashing Magazine](https://www.smashingmagazine.com/2016/07/building-maintaining-atomic-design-systems-pattern-lab/)
 
 ------
 
